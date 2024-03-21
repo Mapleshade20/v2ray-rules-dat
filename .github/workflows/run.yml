@@ -41,10 +41,10 @@ jobs:
           repository: Loyalsoldier/domain-list-custom
           path: custom
 
-      - name: Checkout v2fly/domain-list-community
+      - name: Checkout Mapleshade20/domain-list-community
         uses: actions/checkout@v4
         with:
-          repository: v2fly/domain-list-community
+          repository: Mapleshade20/domain-list-community
           path: community
 
       - name: Checkout cokebar/gfwlist2dnsmasq
